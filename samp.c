@@ -369,11 +369,11 @@ int main()
 {
 	// ◀▶ ◄► 
 	printf("old vs new\n");
-	sym_old=""; sym_new=""; sym_teken=0;
+	sym_old="◀"; sym_new="▶"; sym_teken=0;
 	sampler();
 	printf("\n");
 	printf("new vs teken\n");
-	sym_old=0; sym_new=""; sym_teken="";
+	sym_old=0; sym_new="◀"; sym_teken="▶";
 	sampler();
 	return 0;
 }
